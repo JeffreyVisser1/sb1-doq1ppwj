@@ -1,5 +1,5 @@
 import React from 'react';
-import { CheckCircle2, Circle } from 'lucide-react';
+import { CheckCircle2, Circle, loader2 } from 'lucide-react';
 import type { TimelineEvent } from '../types';
 
 interface TimelineProps {
@@ -15,7 +15,7 @@ export function Timeline({ events }: TimelineProps) {
             {event.completed ? (
               <CheckCircle2 className="w-6 h-6 text-green-500" />
             ) : (
-              <Circle className="w-6 h-6 text-gray-300" />
+              <Loader2 className="w-6 h-6 text-blue-500 animate-spin" />
             )}
           </div>
           <div className="ml-4">
