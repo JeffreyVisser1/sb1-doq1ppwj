@@ -20,7 +20,7 @@
 </template>
 
 <script setup lang="ts">
-import { CheckCircle2, Circle } from 'lucide-vue-next'
+import { CheckCircle2, Circle, Loader2 } from 'lucide-vue-next'
 import type { TimelineEvent } from '~/types'
 
 defineProps<{
