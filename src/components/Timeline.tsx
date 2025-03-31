@@ -1,5 +1,5 @@
 import React from 'react';
-import { CheckCircle2, Circle, loader2 } from 'lucide-react';
+import { CheckCircle2, Circle, Loader2 } from 'lucide-react';
 import type { TimelineEvent } from '../types';
 
 interface TimelineProps {
