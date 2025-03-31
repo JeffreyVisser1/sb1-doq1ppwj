@@ -1,0 +1,86 @@
+{
+  "STUDY001": {
+    "status": "results_received",
+    "timestamp": "2024-03-28T10:50:00Z",
+    "history": [
+      {
+        "status": "send_complete",
+        "timestamp": "2024-03-28T10:10:00Z"
+      },
+      {
+        "status": "received_central",
+        "timestamp": "2024-03-28T10:20:00Z"
+      },
+      {
+        "status": "sent_to_ai",
+        "timestamp": "2024-03-28T10:30:00Z"
+      },
+      {
+        "status": "ai_processing",
+        "timestamp": "2024-03-28T10:40:00Z"
+      },
+      {
+        "status": "results_received",
+        "timestamp": "2024-03-28T10:50:00Z"
+      }
+    ]
+  },
+  "STUDY002": {
+    "status": "ai_processing",
+    "timestamp": "2024-03-28T10:55:00Z",
+    "history": [
+      {
+        "status": "send_complete",
+        "timestamp": "2024-03-28T10:40:00Z"
+      },
+      {
+        "status": "received_central",
+        "timestamp": "2024-03-28T10:45:00Z"
+      },
+      {
+        "status": "sent_to_ai",
+        "timestamp": "2024-03-28T10:50:00Z"
+      },
+      {
+        "status": "ai_processing",
+        "timestamp": "2024-03-28T10:55:00Z"
+      }
+    ]
+  },
+  "STUDY003": {
+    "status": "send_complete",
+    "timestamp": "2024-03-28T10:55:00Z",
+    "history": [
+      {
+        "status": "send_complete",
+        "timestamp": "2024-03-28T10:55:00Z"
+      }
+    ]
+  },
+  "STUDY007": {
+    "status": "results_received",
+    "timestamp": "2024-03-28T10:55:00Z",
+    "history": [
+      {
+        "status": "send_complete",
+        "timestamp": "2024-03-28T10:30:00Z"
+      },
+      {
+        "status": "received_central",
+        "timestamp": "2024-03-28T10:35:00Z"
+      },
+      {
+        "status": "sent_to_ai",
+        "timestamp": "2024-03-28T10:40:00Z"
+      },
+      {
+        "status": "ai_processing",
+        "timestamp": "2024-03-28T10:45:00Z"
+      },
+      {
+        "status": "results_received",
+        "timestamp": "2024-03-28T10:55:00Z"
+      }
+    ]
+  }
+}
